@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    padding: 0;
+}
+.container{
+    width: 60%;
+    margin: 40px auto;
+    background-color: azure;
+    padding: 25px 0px 40px 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px yellow;
+}
+.nav a{
+    background: rgb(222,13,208);
+    color: aqua;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: background 0.3s ease;
+}
+.nav a:hover{
+    background: #0056b3;
+}
+button{
+    background: green;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #218838;
+}
+.flash {
+    padding : 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-sizing: border-box;    
+}
+.flash.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+.flash.error {
+    background-color: yellow;
+    color: purple;
+    border: 1px solid yellow;
+}
+.flash.info {
+    background-color: aquamarine;
+    color: #155724;
+    border: 1px solid #bee5eb;
+}
